@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid red; */
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+/* start of upper nav */
+.upper-nav {
+    width: 100%;
+    height: 40px;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-upper-nav {
+    width: 89%;
+    height: 100%;
+    display: flex;
+}
+
+.inside-upper-nav div {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+
+.img1 {
+    width: 40px;
+}
+
+.img2 {
+    width: 90px;
+}
+
+.img3 {
+    width: 60px;
+}
+
+/* end of upper nav */
+/* navbar */
+nav {
+    width: 100%;
+    height: 80px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-nav {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* left nav */
+.left-nav {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-nav img {
+    width: 50px;
+}
+
+.left-nav ul {
+    width: 250px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5a5a5a;
+}
+
+/* right nav */
+.right-nav {
+    width: 600px;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-engine {
+    width: 430px;
+    height: 45px;
+    border: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.search-engine input {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #5a5a5a;
+}
+
+.search-engine button {
+    border: none;
+    background-color: transparent;
+}
+
+#shop-icon {
+    font-size: 20px;
+    color: #5a5a5a;
+}
+
+#search-icon {
+    font-size: 20px;
+    color: #5a5a5a;
+}
+
+#bar-icon i {
+    font-size: 24px;
+    display: none;
+    color: #5a5a5a;
+}
+
+.btn-sign-in {
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+/* navbar */
+/* start of printer section */
+.printer-section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.printer-img-section {
+    width: 60%;
+    height: 100%;
+    background-image: url('images/Desktop_Image@2x.jfif');
+    background-size: cover;
+    background-position: center;
+}
+
+.printer-text-section {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.printer-upper-para {
+    width: 100%;
+    height: 40%;
+    padding-left: 30px;
+    background-color: #40dffa;
+}
+
+.printer-upper-para p {
+    font-size: 65px;
+}
+
+.printer-bottom-para {
+    width: 100%;
+    height: 60%;
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color: #a0effd;
+}
+
+.inside-bottom-para {
+    height: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.printer-bottom-para p {
+    font-size: 26px;
+}
+
+.printer-bottom-para ul {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 70%;
+    height: 80px;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.buttons {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.buttons span {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1 {
+    width: 80px;
+    height: 35px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn2 {
+    width: 130px;
+    height: 35px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn3 {
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* end of printer section */
+.hey {
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.inside-hey {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.inside-hey p {
+    font-size: 50px;
+}
+
+/* start of monitor section */
+.monitor-section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    flex-wrap: wrap;
+}
+
+.inside-monitor-section {
+    width: 80%;
+    height: 100%;
+}
+
+.inside-monitor-section p {
+    font-size: 34px;
+    height: 80px;
+}
+
+.grid-monitor {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 450px;
+    grid-template-columns: 33% 33% 33%;
+    gap: 20px;
+
+}
+
+.box1 {
+    border: 1px solid black;
+    /* background-color: #40dffa; */
+}
+
+.box2 {
+    border: 1px solid black;
+    /* background-color: #40dffa; */
+}
+
+.box3 {
+    border: 1px solid black;
+    /* background-color: #40dffa; */
+}
+
+.img-box1 {
+    width: 100%;
+    height: 85%;
+    background-image: url('images/printer-Mask-Group-278@2x.png');
+    background-size: cover;
+}
+
+.img-box2 {
+    width: 100%;
+    height: 85%;
+    background-image: url('images/PCs-Mask-Group-279@2x.webp');
+    background-size: cover;
+}
+
+.img-box3 {
+    width: 100%;
+    height: 85%;
+    background-image: url('images/Monitor-Mask-Group-277@2x.webp');
+    background-size: cover;
+}
+
+.text-box1 {
+    width: 100%;
+    height: 15.5%;
+    background-color: #212237;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box1 pre {
+    font-size: 28px;
+    color: white;
+}
+
+.text-box1 pre br {
+    display: none;
+}
+/* end of monitor section */
+/* start of workforce */
+.workforce{
+    width: 100%;
+    height: 440px;
+    background-color:#f5f5f5 ;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.inside-workforce{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.img-work{
+    width: 60%;
+    height: 400px;
+    background-image: url('images/workforce-services.jpg');
+    background-size: cover;
+}
+.text-work{
+    width: 40%;
+    height: 100%;
+    /* background-color: purple; */
+}
+.inside-text-work{
+    width: 100%;
+    height: 80%;
+    padding-left: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.text-work p{
+    font-size: 45px;
+}
+.text-work label{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: start;
+}
+.text-work hr{
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 470px;
+}
+.text-work button{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-top: 30px;
+}
+/* end of workforce */
+/* start of shop */
+.shop{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.inside-shop{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inside-shop p{
+    color: white;
+    font-size: 24px;
+}
+.inside-shop button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 18px;
+}
+/* end of shop */
+/* start of footer */
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.inside-footer{
+    width: 90%;
+    height: 100%;
+}
+.country{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.country p{
+    color: white;
+}
+.list{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
+.list ul{
+    width: 25%;
+    height: 90%;
+    list-style: none;
+    margin-top: 20px;
+}
+.list ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.list ul li a:hover{
+    border-bottom: 1px solid white;
+}
+.list ul span{
+    width: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.list ul span div{
+    width: 20px;
+    height: 20px;
+    border-radius:2px ;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list ul li{
+    margin-top: 10px;
+}
+.recalls{
+    width: 100%;
+    height: 90px;
+}
+.recalls pre{
+    color: white;
+    margin-top: 20px;
+}
+.recalls p{
+    color: white;
+    margin-top: 20px;
+}
+.white{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+}
+/* end of footer */
+
+
+/* Responsive Design */
+@media (max-width:768px) {
+
+    /* upper nav */
+    .upper-nav {
+        display: none;
+    }
+
+    /* navbar */
+    nav {
+        width: 100%;
+    }
+
+    .inside-nav {
+        width: 90%;
+    }
+
+    .left-nav ul {
+        display: none;
+    }
+
+    .right-nav {
+        width: 200px;
+    }
+
+    .search-engine {
+        display: none;
+    }
+
+    #bar-icon i {
+        display: block;
+    }
+
+    /* printer section */
+    .printer-section {
+        width: 100%;
+        height: auto;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .printer-img-section {
+        width: 100%;
+        height: 400px;
+    }
+
+    .printer-text-section {
+        width: 100%;
+        height: 400px;
+    }
+
+    .printer-upper-para {
+        height: 130px;
+    }
+
+    .printer-upper-para p {
+        font-size: 50px;
+        width: 550px;
+    }
+
+    .printer-upper-para p br {
+        display: none;
+    }
+
+    .printer-bottom-para {
+        height: 270px;
+    }
+
+    .inside-bottom-para {
+        height: 85%;
+    }
+
+    .printer-bottom-para ul {
+        height: 50px;
+    }
+
+    .printer-bottom-para ul li {
+        font-size: 14px;
+    }
+
+    .printer-bottom-para ul li br {
+        display: none;
+    }
+
+    .buttons {
+        width: 58%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* hey section */
+    .hey {
+        width: 100%;
+    }
+
+    .inside-hey {
+        width: 90%;
+    }
+
+    .inside-hey p {
+        font-size: 40px;
+    }
+
+    /* monitor section */
+    .monitor-section {
+        width: 100%;
+        height: 430px;
+    }
+
+    .grid-monitor {
+        width: 100%;
+    }
+
+    .inside-monitor-section {
+        width: 90%;
+    }
+
+    .inside-monitor-section p {
+        font-size: 30px;
+    }
+
+    .grid-monitor {
+        width: 100%;
+        height: 370px;
+        display: grid;
+        grid-template-rows: 300px;
+    }
+
+    .img-box1 {
+        height: 80%;
+    }
+
+    .img-box2 {
+        height: 80%;
+    }
+
+    .img-box3 {
+        height: 80%;
+    }
+
+    .text-box1 {
+        height: 20%;
+    }
+
+    .text-box1 pre {
+        font-size: 20px;
+    }
+
+    .text-box1 pre br {
+        display: block;
+    }
+    /* strat of workspace */
+    .workforce{
+        width: 100%;
+        height: 350px;
+        /* background-color: purple; */
+    }
+    .inside-workforce{
+        width:95%;
+        height: 350px;
+        /* background-color: yellow; */
+    }
+    .img-work{
+        width: 60%;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+    .text-work{
+        width:40%;
+        height: 400px;
+    }
+    .inside-text-work p{
+        font-size: 30px;
+    }
+    .inside-text-work hr{
+        width: 250px;
+    }
+    .inside-text-work label{
+        font-size: 18px;
+    }
+    .inside-text-work label br{
+        display: none;
+    }
+    /* footer */
+    .list{
+        height: 350px;
+    }
+}
